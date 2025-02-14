@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+body {
+  background-color: rgb(229, 135, 135);
+  color: rgb(201, 218, 244);
+  font-size: 20px;
+  padding: 24px;
+  min-height: 100vh;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.border-bottom {
+  border-bottom: 1px solid rgb(53, 53, 53);
+  width: 50vw;
+}
